@@ -40,6 +40,16 @@ For this task, I combined the employee number, name, and birth-date data from th
 - The date format is organized better, but is still a little awkward to interpret.
 
 ### Conclusion
-Based on the table in Deliverable 2, it appears as though a litle over 72,000 positions will need to be filled in the years to come. 
+Based on the table in Deliverable 2, it appears as though a litle over 72,000 positions will need to be filled in the years to come. This is a lot of employees to train, but luckily there are quite a few mentor-eligible employees for most position types. I made the following table to display this:
 
+<p align="center">
+  <img width=auto height="150" src=Resources/Images/mentor_counts.png>
+  </p>
+  
+So now we know just how many potential mentors exist in each area of the company, and since it's pretty easy to see that these numbers don't add up to 72,000 we'll need another table to better visualize the vacancy-mentor disparity. I went ahead and made one using the previous table and the **retiring_titles** table from Deliverable 2:
 
+<p align="center">
+  <img width=auto height="150" src=Resources/Images/ratio.png>
+  </p>
+  
+Now we're talking. Not only do we now see that there are zero potential mentors for mangement positions, we can easily see which positions will provide the largest mentor pools for new employees based on the position-mentor ratio. It's not looking good for the senior engineer mentors. This may push hiring managers to temporarily seek engineers with more experience than what has been required in the past. Fortunately, there will only two management vacancies to fill!
