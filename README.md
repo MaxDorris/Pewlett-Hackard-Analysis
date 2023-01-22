@@ -1,4 +1,4 @@
-# *Pewlett-Hackard-Analysis*
+# *Example SQL Analysis*
 ## Overview
 ### Purpose and Background
 Structured Query Language, or SQL, is a tool used to access and manipulate databases. In this Vanderbilt Data Analytics Bootcamp project, I used SQL and a provided dataset to aid retirement strategy planning and find eligible employees for an internal mentorship program for a large company.
@@ -39,6 +39,7 @@ For this task, I combined the employee number, name, and birth-date data from th
 - All columns are helpful in deciding eligilibity.
 - The date format is organized better, but is still a little awkward to interpret.
 
-### Conclusions
+### Conclusion
+Based on the table in Deliverable 2, it appears as though a litle over 72,000 positions will need to be filled in the years to come. 
 
-- One improvement on this table could be manipulating the columns of *birth_date* and *from_date / to_date* to instead show *age* and *years in the company*. This would certainly help me narrow down the prospects by removing the need to do mental date math.....
+
